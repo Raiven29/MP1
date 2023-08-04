@@ -1,0 +1,142 @@
+<html>
+    <head>
+        <title> PetGo | Pet Shop </title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale-1">
+        <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Poppins&Display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <section class="banner">
+            <img src="./logo.png" alt="logo">
+            <div class="banner-text">
+                <h1> CatNip Caffeine </h1>
+                <p> Coffee plus Pets, equals to Happiness </p>
+                <div class="banner-btn">
+                    <a href="#"> <span></span> Fur Friends </a>
+                    <a href="#"> <span></span> Coffees </a>
+                </div>
+            </div>
+        </section>
+
+        <div id="sideNav">
+            <nav>
+                <ul>
+                    <li><a href="#"> Home </a></li>
+                    <li><a href="#"> Menu </a></li>
+                    <li><a href="#"> Adoption Center </a></li>
+                    <li><a href="#"> Feedbacks </a></li>
+                    <li><a href="#"> Contact Us </a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div id="menuBTN">
+            <img src="../newMP1/menu.png" id="menu">
+        </div>
+
+        <section id="feature">
+            <div class="title-text">
+                <p> COFFEE </p>
+                <h1> All available in Hot & Cold </h1>
+            </div>
+            <div class="feature-box">
+
+                <div class="coffees">
+                    <h1> Espresso - Php 100 </h1>
+                    <h2> Pure Espresso </h2>
+                </div>
+
+                <div class="coffees">
+                    <h1> Shakerato - Php 125 </h1>
+                    <h2> Espresso | Sugar | Ice</h2>
+                </div>
+
+                <div class="coffees">
+                    <h1> Vietnamese Coffee - Php 125 </h1>
+                    <h2> Filtered Coffee | Sweetened Condensed Milk </h2>
+                </div>
+
+                <div class="coffees">
+                    <h1> Long Black - Php 110 </h1>
+                    <h2> Double Espresso | Hot Water </h2>
+                </div>
+
+                <div class="coffees">
+                    <h1> Espresso Decaf - Php 120 </h1>
+                    <h2> Decaffeinated Espresso </h2>
+                </div>
+
+                <div class="coffees">
+                    <h1> Iced Mint Latte - Php 150 </h1>
+                    <h2> Whippe Cream | Ice | Espresso | Whipped Milk | Mint Syrup </h2>
+                </div>
+
+                <div class="coffees">
+                    <h1> Marocchino - Php 150 </h1>
+                    <h2> Cocoa Powder | Milk Foam | Espresso | Chocolate </h2>
+                </div>
+
+                <div class="coffees">
+                    <h1> Mead Raf Coffee Php 140 </h1>
+                    <h2> Milk Foam | Espresso | Honey </h2>
+                </div>
+    
+                <div class="coffees">
+                    <h1> Mocha Latte - Php 130 </h1>
+                    <h2> Whipped Milk | Hot Chocolate | Espresso </h2>
+                </div>
+    
+                <div class="coffees">
+                    <h1> Coffee with Pepper - Php 130 </h1>
+                    <h2> Cayenne Pepper | Coffee </h2>
+                </div>
+            </div>
+        </section>
+
+     <section id="footer">
+        <img src="../newMP1/espresso.png" class="footer-img">
+            <div class="title-text">
+                <p> CONTACT US </p>
+                <h1> Visit Us Today </h1>
+            </div>
+
+    <div class="footer-row">
+        <div class="footer-left">
+            <h1> Opening Hours </h1>
+            <p> <i class=" fa fa-clock-o"></i> Monday to Friday - 9am to 9pm </p>
+            <p> <i class=" fa fa-clock-o"></i> Saturday and Sunday - 8am to 11pm </p>
+        </div>
+        <div class="footer-right">
+            <h1> Get in Touch </h1>
+            <p> Tanay, Rizal, Philippines </p>
+            <p> petcoffeeshop@gmail.com </p>
+            <p> +639508590051 </p>
+        </div>
+    </div>
+            
+     </section>
+
+
+
+
+        <script>
+            var menuBTN = document.getElementById("menuBTN")
+            var sideNav = document.getElementById("sideNav")
+            var menu = document.getElementById("menu")
+
+            sideNav.style.right = "-250px";
+
+            menuBTN.onclick = function(){
+                if (sideNav.style.right == "-250px"){
+                    sideNav.style.right = "0";
+                }
+                else{
+                    sideNav.style.right = "-250px";
+                    menu.scr = "newMP1/close.png";
+                }
+            }
+        </script>
+
+    </body>
+</html>
